@@ -1,0 +1,21 @@
+cabal-version: 2.4
+name: Haskell101
+version: 1.0
+license: GPL-3.0-or-later
+maintainer: Walid Chergui
+author: Walid Chergui
+stability: experimental
+description:
+    My first project Haskell :)
+x-ghc-framework-version: 8.6.4-13.14-3
+x-last-ide-version: HfM1.8.2
+
+executable Haskell101
+    main-is: A_Intro.hs
+    other-modules:
+        B_ADT
+        C_Monad
+    default-language: Haskell2010
+    build-depends:
+        mtl -any,
+        base -any

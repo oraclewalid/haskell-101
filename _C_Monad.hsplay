@@ -1,0 +1,48 @@
+-- Haskell Playground 1.0
+
+
+addM just2 just2
+
+
+addM' just2 just2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+missing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+story = runReader getStory "walid"
+story
+
+
+forM [1,2,3] print
+
+liftM2 (+) (Just 2) (Just 6)

@@ -1,0 +1,10 @@
+-- Haskell Playground 1.0
+secondShow "toto"
+
+case newCustumerId of
+  MakeCustomerId i -> i
+  
+name customer
+name secondCustomer 
+
+show customer
